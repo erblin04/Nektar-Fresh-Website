@@ -1,0 +1,135 @@
+/* Tablet responsive */
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .start{
+        height: 40vh;
+    }
+    .title h1{
+        margin-right: 10%;
+    }
+    .icon{
+        justify-content: end;
+    }
+    .icon img{
+        width: 110%;
+    }
+    .flex{
+    flex-direction: column;
+    }
+    .contact-form  h2{
+        margin-left: 13vw;
+    }
+    .contact-form  h3{
+        margin-left: 13vw;
+    }
+    .contact-form button{
+        margin-left: 8vw;
+    }
+    .contact-details{
+        align-items: start;
+        margin-left: 15vw;
+    }
+    .content > div p{
+        font-size: 0.9em;
+    }
+    .footer-content {
+        margin-top: 5vh;
+    }
+
+}
+/* L Phones Responsive */
+@media (min-width: 480px) and (max-width: 767px){
+    .start{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .icon img{
+        width: 100%;
+    }
+    .flex{
+    flex-direction: column;
+    }
+    .contact-form  h2{
+        margin-left: 13vw;
+    }
+    .contact-form  h3{
+        margin-left: 13vw;
+    }
+    .contact-form button{
+        margin-left: 8vw;
+    }
+    .contact-details{
+        align-items: start;
+        margin-left: 15vw;
+    }
+    .content > div p{
+        font-size: 0.9em;
+    }
+    .footer{
+        margin-top: 5vh;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%)
+    }
+    .footer-content{
+        flex-direction: column;
+        margin: 1vh;
+    }
+    .links *{
+        display: none;
+    }
+    .logo *{
+        display: none;
+    }
+    .footer-bottom p{
+        font-size: small;
+    }
+}
+/* Small phones responsive */
+@media (max-width: 479px) {
+    .start{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .title h1{
+        font-size: 1.8em;
+    }
+    .icon img{
+        width: 100%;
+    }
+    .flex{
+    flex-direction: column;
+    }
+    .contact-form  h2{
+        margin-left: 13vw;
+    }
+    .contact-form  h3{
+        margin-left: 13vw;
+    }
+    .contact-form button{
+        margin-left: 8vw;
+    }
+    .contact-details{
+        align-items: start;
+        margin-left: 15vw;
+    }
+    .content > div p{
+        font-size: 0.9em;
+    }
+    .footer{
+        margin-top: 5vh;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%)
+    }
+    .footer-content{
+        flex-direction: column;
+        margin: 1vh;
+    }
+    .links *{
+        display: none;
+    }
+    .logo *{
+        display: none;
+    }
+    .footer-bottom p{
+        font-size: small;
+    }
+
+}

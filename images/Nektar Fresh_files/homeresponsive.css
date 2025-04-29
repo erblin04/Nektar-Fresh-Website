@@ -1,0 +1,264 @@
+@media (min-width: 1024px) and (max-width: 1199px)
+{
+.header, .main{
+width: 100%
+}
+nav{
+justify-content: space-around;
+}
+nav img{
+padding:0 ;
+margin: 0;
+
+}
+nav ul {
+margin-right: 0;
+}
+#menu a{
+font-size: smaller;
+}
+.home{
+display: flex;
+flex-direction: row;
+align-items: center;
+height:50vh;
+}
+
+#one, #two{
+width: 40%;
+}
+
+.home img{
+justify-content: center;
+}
+.orange-img{
+margin-top: 30%;
+
+}
+#one p {
+font-size: smaller;
+padding-left: 2%;
+}
+
+#experienceHeader{
+display: none;
+}
+.numbers, .container{
+margin: 0;
+padding: 0;
+}
+
+.numbers{
+padding-top: 4%;
+width: auto;
+padding-left: 20%;
+}
+.container{
+height: 30vh;
+justify-content: center;
+align-items: center;
+width: 100%;
+justify-content: center;
+}
+.column h1{
+font-size:20px;
+}
+.text{
+width: 100%;
+height: 20vh;
+font-size: 10px;
+width: 80%;
+padding: 0;
+margin: 0%;
+}
+.text h2{
+padding: 0;
+}
+
+}
+
+/* * Tablet responsive */ 
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        }
+        .home div{
+        width: 100%;
+        align-items: center;
+        }
+        #one{
+        height: 25vh;
+        }
+        #one img{
+            width: 45vw;
+        }
+        #parallelogram{
+            display: none;
+        }
+        #two{
+            position: static;
+            height: 75vh;
+        }
+
+}
+
+
+
+
+/* PHONE RESPONSIVE */
+
+@media (max-width:480px){
+
+
+.home{
+display: flex;
+flex-direction: column;
+height: auto;
+}
+.home div{
+width: 100%;
+align-items: center;
+}
+#one{
+height: 25vh;
+}
+
+#parallelogram{
+display: none;
+}
+
+#two{
+display: flex;
+justify-content: center;
+position: relative;
+height: 20vh;
+}
+
+
+#two .orange-img{
+width: 60%;
+left: 0;
+position: static;
+
+}
+#one p{
+font-size: 10px;
+}
+
+.experienceDiv{
+display: flex;
+flex-direction: column;
+}
+.experienceDiv div{
+width: 100%;
+}
+#experienceHeader{
+display: none;
+}
+.numbers{
+box-sizing: border-box;
+justify-content: space-around;
+padding-left: 5%;
+padding-top: 3%;
+/* display: none; */
+
+}
+.column h1{
+font-size: 20px;
+}
+
+.container{
+height: 30vh;
+position: relative;
+width: 60%;
+background-size: 60%;
+background-repeat: no-repeat;
+background-position: center;
+justify-content: center;
+
+
+}
+
+#experienceText{
+font-size: 12px;
+width: 80vw;
+margin: auto;
+}
+
+.stat-card{
+width: 35%;
+height: auto;
+align-items: center;
+padding-top: 5%;
+}
+
+.stat-card img{
+width: 30%;
+}
+.stat-card h3{
+font-size: 10px;
+}
+
+.product{
+width: 100%;
+height: 10vh;
+}
+
+.product h1{
+font-size: 15px;
+margin: auto;
+}
+
+.product-cards{
+flex-direction: column;
+width: 100%;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+
+.product-card{
+width: 90%;
+margin: auto;
+}
+
+.product-card button{
+width: 200px;
+}
+
+#contact{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+#contact button{
+width: 200px;
+margin: 0 auto;
+}
+
+#contact h1, h2{
+font-size: 15px;
+}
+
+div.logo, div.links{
+display: none;
+}
+
+.footer-bottom p{
+font-size: 10px;
+}
+
+.btns{
+display: flex;
+flex-direction: column;
+width: 100%
+}
+.btns button{
+width: 80%;
+margin: auto;
+margin-bottom: 2%;
+}
+}

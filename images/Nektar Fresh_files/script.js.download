@@ -1,0 +1,21 @@
+let currentIndex = 0;
+const images = [
+    'images/orange1.png', // Replace with the actual path to your first image
+    'images/apple.png', // Replace with the actual path to your second image
+    'images/fruits.png'  // Replace with the actual path to your third image
+];
+
+const changeImage = () => {
+    const imgElement = document.querySelector('.orange-img');
+    imgElement.style.opacity = 0; // Start fade out
+    setTimeout(() => {
+        currentIndex = (currentIndex + 1) % images.length;
+        imgElement.src = images[currentIndex];
+        imgElement.style.opacity = 1; // Fade in
+    }, 1000); // Match this duration to the transition time
+};
+
+// Change image every 3 seconds (3000 milliseconds)
+setInterval(changeImage, 5000);
+
+

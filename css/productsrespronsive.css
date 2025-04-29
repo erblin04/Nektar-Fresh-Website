@@ -1,0 +1,152 @@
+@media (min-width: 1024px)and (max-width: 1240px){
+    nav ul li{
+        margin: 0 25px;
+    }
+    .product-img{
+        height: auto;
+        }
+        
+}
+
+
+/* Tablet responsive */
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .product-img{
+        height: auto;
+    }
+ .product h2{
+    margin: 1vh 0;
+ }   
+ .footer-content {
+    margin-top: 5vh;
+}
+}
+
+
+@media (min-width: 510px) and (max-width: 767px){
+    .aboutbg{
+        background-position-y: 10vh;
+        background-repeat: no-repeat;
+    }
+    .aboutflex {
+        flex-direction: column;
+        height: auto;
+    }
+    .text p{
+        width:70%;
+    }
+    .image img{
+        width:70%;
+    }
+    .content {
+        height: auto;
+        grid-template-columns: auto;
+    }
+    .content > div p {
+        margin: 0 10vw;
+    }
+    .content > div:nth-child(3) h2 {
+        text-align: center;
+    }
+    .footer{
+        margin-top: 5vh;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%)
+    }
+    .footer-content{
+        flex-direction: column;
+        margin: 1vh;
+    }
+    .links *{
+        display: none;
+    }
+    .logo *{
+        display: none;
+    }
+    .footer-bottom p{
+        font-size: small;
+    }
+
+    /* L Phones Responsive */
+@media (min-width: 480px) and (max-width: 509px){
+    .products-grid{
+        grid-template-columns: none;
+    }
+    .footer{
+        margin-top: 5vh;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%)
+    }
+    .footer-content{
+        flex-direction: column;
+        margin: 1vh;
+    }
+    .links *{
+        display: none;
+    }
+    .logo *{
+        display: none;
+    }
+    .footer-bottom p{
+        font-size: small;
+    }
+    
+    }
+
+}
+/* Small phones responsive */
+@media (min-width: 400px) and (max-width: 479px) {
+
+    .products-grid{
+            grid-template-columns: none;
+    }
+    .category-filter button{
+        margin: 0;
+    }
+    .footer{
+        margin-top: 5vh;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%)
+    }
+    .footer-content{
+        flex-direction: column;
+        margin: 1vh;
+    }
+    .links *{
+        display: none;
+    }
+    .logo *{
+        display: none;
+    }
+    .footer-bottom p{
+        font-size: small;
+    }
+}
+@media (max-width: 399px) {
+    .products-grid{
+        grid-template-columns: none;
+}
+.category-filter {
+    display: flex;
+    flex-direction: column;
+}
+.category-filter button {
+    margin-top: 1vh;
+}
+
+.footer{
+    margin-top: 5vh;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%)
+}
+.footer-content{
+    flex-direction: column;
+    margin: 1vh;
+}
+.links *{
+    display: none;
+}
+.logo *{
+    display: none;
+}
+.footer-bottom p{
+    font-size: small;
+}
+}

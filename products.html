@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nektar Fresh</title>
+    <link rel="stylesheet" type="text/css" href="/css/products.css">
+    <link rel="stylesheet" type="text/css" href="/css/productsrespronsive.css">
+    <link rel="stylesheet" type="text/css" href="css/navResponsive.css">
+
+
+</head>
+<header>
+    <nav>
+        <img src="images/logo.jpg" id="logo" alt="Nektar Fresh Logo">
+        <div class="menu-icon" onclick="toggleMenu()"><img src="images/menuicon.png" alt=""></div>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+    </nav>
+</header>
+<body>
+    <main>
+        <div class="products-page">
+            <h1>Products</h1>
+    
+            <div class="category-filter">
+                <button onclick="filterProducts('all')">All</button>
+                <button onclick="filterProducts('fruits')">Fruits</button>
+                <button onclick="filterProducts('vegetables')">Vegetables</button>
+            </div>
+            <div class="products-grid">
+                <div class="product" data-category="vegetables" data-name="Broccoli" data-available="Availability : April to November" data-description="One of broccoli’s biggest advantages is its nutrient content. It’s loaded with awide array of vitamins, minerals, fiber and other bioactive compounds. Broccoli can be eaten cooked or raw-both are perfectly healthy but provide different nutrient profiles." data-image="images/products/broccoli.png">
+                    <div class="product-img"><img src="images/products/broccoli.png" alt="Broccoli"></div>
+                    <h2>Broccoli</h2>
+                    <p>Fresh Vegetable</p>
+                </div>
+                <div class="product" data-category="fruits" data-name="Orange" data-available="Availability : From the end of Nov. to May. ." data-description="Oranges are succulent and flavorful citrus fruits, celebrated for their bright orange hue and refreshing sweetness. Rich in vitamin C and antioxidants, they are a delicious and nutritious choice for snacking or enhancing your favorite dishes." data-image="images/products/orange.png">
+                    <div class="product-img"><img src="images/products/orange.png" alt="Orange"></div>
+                    <h2>Orange</h2>
+                    <p>Fresh Fruit</p>
+                </div>
+                <div class="product" data-category="fruits" data-name="Pomegranate" data-description="Fresh Fruits" data-image="images/products/pomegranate.png" >
+                    <div class="product-img"><img src="images/products/pomegranate.png" alt="Pomegranate"></div>
+                    <h2>Pomegranate</h2>
+                    <p>Fresh Fruit</p>
+                </div>
+                <div class="product" data-category="vegetables" data-name="Tomato" data-description="Fresh Vegetables" data-image="images/products/tomato.png">
+                    <div class="product-img"><img src="images/products/tomato.png" alt="Tomato"></div>
+                    <h2>Tomato</h2>
+                    <p>Fresh Vegetable</p>
+                </div>
+                <div class="product" data-category="vegetables" data-name="Patato" data-description="Fresh Vegetables" data-image="images/products/patato.png">
+                    <div class="product-img"><img src="images/products/patato.png" alt="Patato"></div>
+                    <h2>Patato</h2>
+                    <p>Fresh Vegetable</p>
+                </div>
+                <div class="product" data-category="fruits" data-name="Avocado" data-description="Fresh Fruits" data-image="images/products/avocado.png">
+                    <div class="product-img"><img src="images/products/avocado.png" alt="Avocado"></div>
+                    <h2>Avocado</h2>
+                    <p>Fresh Fruit</p>
+                </div>
+
+
+            </div>
+        </div>
+    
+
+    </main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="images/logotext.gif" alt="">
+        </div>
+        <div class="socials">
+            <h2>Get in touch</h2>
+            <div>
+                <a href=""><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/p/Nektar-Fresh-100063531248397/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href=""><img src="images/linkedin.png" alt="LinkedIn"></a>
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Nektar Fresh &copy; Copyright 2024. All rights reserved.</p>
+    </div>
+</footer>
+
+
+        <script src="/js/products.js"></script>
+        <script src="js/nav.js"></script>
+</body>
+</html>
+</body>

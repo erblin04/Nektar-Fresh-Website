@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nektar Fresh</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" href="css/contactresponsive.css">
+    <link rel="stylesheet" type="text/css" href="css/navResponsive.css">
+
+
+</head>
+<header>
+    <nav>
+        <img src="images/logo.jpg" id="logo" alt="Nektar Fresh Logo">
+        <div class="menu-icon" onclick="toggleMenu()"><img src="images/menuicon.png" alt=""></div>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+    </nav>
+</header>
+<body>
+<main>
+    <div class="start">
+        <div class="title"><h1>Contact Us</h1></div>
+        <div class="icon"><img src="images/contactsvg.svg" alt="contact svg"></div>
+    </div>
+    <section>
+        <div class="flex">
+            <div class="contact-form">
+                <h2>Want to collaborate with us?</h2>
+                <h3>Send us a message.</h3>
+                <form id="contact-form" onsubmit="handleSubmit(event)">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                        <span id="name-error" class="error">Name is required</span>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <span id="email-error" class="error">Valid email is required</span>
+                    </div>
+                    <div>
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject">
+                        <span id="subject-error" class="error">Subject is required</span>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <span id="message-error" class="error">Message is required</span>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="thank-you-message">Thank you for your message! We will get back to you soon.</div>
+            
+            </div>
+            <div class="contact-details">
+                <div><h3>We are open</h3>
+                    <p>Monday to Saturday : 24 Hours</p>
+                    <p id="sunday">Sunday : Closed</p>
+                    <h3>Contact Details</h3>
+                    <p>Phone:<a href="tel:+38970365073"> +389 70 365 073</a></p>
+                    <p>Email:<a href="mailto:"> info@example.com</a></p>
+                    <p><a href="//maps.app.goo.gl/3q41Xkp3Et7NvSeW9">Кванташки пазар, Ул. 1632 Бр.23 MK, Skopje 1000</a></p>
+                    <button id="map" onclick="window.location.href='//maps.app.goo.gl/3q41Xkp3Et7NvSeW9'">View on map</button>
+                </div>
+            </div>
+
+        </div>
+       
+        <script src="/contact.js"></script> 
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="images/logotext.gif" alt="">
+        </div>
+        <div class="socials">
+            <h2>Get in touch</h2>
+            <div>
+                <a href=""><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/p/Nektar-Fresh-100063531248397/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href=""><img src="images/linkedin.png" alt="LinkedIn"></a>
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Nektar Fresh &copy; Copyright 2024. All rights reserved.</p>
+    </div>
+</footer>
+
+
+        <script src="js/contact.js"></script>
+        <script src="js/nav.js"></script>
+
+</body>
+</html>
+</body>
